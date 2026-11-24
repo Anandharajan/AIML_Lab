@@ -1,0 +1,25 @@
+Ex.No:8
+Implement Ensembling Techniques (Bagging, Boosting, Stacking, Voting)
+
+Aim:
+To write a python program to implement ensembling techniques - bagging, boosting,
+stacking and voting - and compare them with single base classifiers.
+
+Procedure:
+Step 1 - Import the required libraries (scikit-learn ensembles and base models).
+Step 2 - Load the breast-cancer dataset and split it into training and test sets (70:30).
+Step 3 - Train three single base models: logistic regression, KNN and a decision tree.
+Step 4 - Build the ensembles:
+         Bagging  - many trees trained on bootstrap samples, majority vote.
+         Boosting - AdaBoost trains models one after another, focusing on mistakes.
+         Stacking - a meta-learner (logistic regression) combines base-model outputs.
+         Voting   - majority vote of the three base models.
+Step 5 - Evaluate each ensemble with 5-fold cross-validation and test accuracy.
+Step 6 - Compare ensemble accuracy with the single models and write the result.
+
+Program:
+See ensembling_breast_cancer.py
+
+Result:
+Thus the ensembling techniques were implemented and their accuracy compared with
+single base classifiers.

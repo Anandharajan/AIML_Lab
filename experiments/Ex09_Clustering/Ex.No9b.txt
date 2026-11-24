@@ -1,8 +1,8 @@
-Ex.No:8
-Implement Ensembling Techniques (K- Means)
+Ex.No:9(b)
+Clustering: K-Means vs Gaussian Mixture (EM) on Iris
 
 Aim:
-To write a python program to implement ensembling techniques using k-means
+To write a python program to compare k-means and Gaussian mixture model clustering on the Iris dataset
 
 Procedure:
 Step 1 - Import basic libraries.

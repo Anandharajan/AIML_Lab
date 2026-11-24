@@ -1,5 +1,7 @@
 # AIML Lab Experiments
 
+> 🎮 **Practise these on Gradient:** lessons, sandboxes and auto-graded versions of every experiment for CS3491 → https://anandharajan.github.io/gradient-edu
+
 Python-based Artificial Intelligence and Machine Learning lab programs with organized datasets, original reference notes, and VS Code friendly folder structure.
 
 ## Quick Start In VS Code
@@ -36,8 +38,9 @@ pip install -r requirements.txt
 | 6(a) | [Ex06_Trees](experiments/Ex06_Trees/) | [decision_tree_covid.py](experiments/Ex06_Trees/decision_tree_covid.py) | [Ex.No6a.txt](experiments/Ex06_Trees/Ex.No6a.txt) | [covid19.csv](datasets/covid19.csv) |
 | 6(b) | [Ex06_Trees](experiments/Ex06_Trees/) | [random_forest_covid.py](experiments/Ex06_Trees/random_forest_covid.py) | [Ex.No6b.txt](experiments/Ex06_Trees/Ex.No6b.txt) | [covid19.csv](datasets/covid19.csv) |
 | 7 | [Ex07_SVM](experiments/Ex07_SVM/) | [svm_covid.py](experiments/Ex07_SVM/svm_covid.py) | [Ex.No7.txt](experiments/Ex07_SVM/Ex.No7.txt) | [covid19.csv](datasets/covid19.csv) |
-| 8 | [Ex08_Ensembling_KMeans](experiments/Ex08_Ensembling_KMeans/) | [kmeans_gmm_iris.py](experiments/Ex08_Ensembling_KMeans/kmeans_gmm_iris.py) | [Ex.No8.txt](experiments/Ex08_Ensembling_KMeans/Ex.No8.txt) | Uses `sklearn.datasets.load_iris()` |
-| 9 | [Ex09_Clustering](experiments/Ex09_Clustering/) | [kmeans_income.py](experiments/Ex09_Clustering/kmeans_income.py) | [Ex.No9.txt](experiments/Ex09_Clustering/Ex.No9.txt) | [income.csv](datasets/income.csv) |
+| 8 | [Ex08_Ensembling](experiments/Ex08_Ensembling/) | [ensembling_breast_cancer.py](experiments/Ex08_Ensembling/ensembling_breast_cancer.py) | [Ex.No8.txt](experiments/Ex08_Ensembling/Ex.No8.txt) | Uses `sklearn.datasets.load_breast_cancer()` |
+| 9(a) | [Ex09_Clustering](experiments/Ex09_Clustering/) | [kmeans_income.py](experiments/Ex09_Clustering/kmeans_income.py) | [Ex.No9.txt](experiments/Ex09_Clustering/Ex.No9.txt) | [income.csv](datasets/income.csv) |
+| 9(b) | [Ex09_Clustering](experiments/Ex09_Clustering/) | [kmeans_gmm_iris.py](experiments/Ex09_Clustering/kmeans_gmm_iris.py) | [Ex.No9b.txt](experiments/Ex09_Clustering/Ex.No9b.txt) | Uses `sklearn.datasets.load_iris()` |
 | 10 | [Ex10_EM_Bayesian](experiments/Ex10_EM_Bayesian/) | [em_coin_toss.py](experiments/Ex10_EM_Bayesian/em_coin_toss.py) | [Ex.No10.txt](experiments/Ex10_EM_Bayesian/Ex.No10.txt) | No external dataset |
 | 11 | [Ex11_Simple_NN](experiments/Ex11_Simple_NN/) | [simple_neural_network_digits.py](experiments/Ex11_Simple_NN/simple_neural_network_digits.py) | [Ex.No11.txt](experiments/Ex11_Simple_NN/Ex.No11.txt) | [digit.jpg](datasets/digit.jpg) |
 | 12 | [Ex12_DeepLearning_CNN](experiments/Ex12_DeepLearning_CNN/) | [cnn_cellimage.py](experiments/Ex12_DeepLearning_CNN/cnn_cellimage.py) | [Ex.No12.txt](experiments/Ex12_DeepLearning_CNN/Ex.No12.txt) | [cellimage/](datasets/cellimage/) |
